@@ -8,6 +8,7 @@ $(document).ready(() => {
 });
 
 // NOTE: Since this is a first project I'm not going to use envt vars here but henceforth I should
+// NOTE: To whoever is reading this, yes I just gave you my OMDb api key whatchu gonna do huh? pls don't kill me
 // Retrieves movies depending on Search query
 function getMovies(searchText) {
     axios.get("http://www.omdbapi.com/?apikey=91f483c0&s="+searchText)
