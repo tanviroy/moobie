@@ -1,0 +1,22 @@
+#movies img, #movie img {
+    width: 100%;
+}
+
+@media(min-width:960px){
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+
+    #movies .col-md-3 img {
+        height: 260;
+    }
+}
+
+.navbar-brand {
+    color: white;
+    font-size: x-large;
+}
+
+.logo {
+    flex: right;
+}
